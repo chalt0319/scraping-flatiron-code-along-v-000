@@ -10,7 +10,6 @@ class Scraper
     end 
     
     def get_courses
-      binding.pry 
       @doc.css(".posts-holder")
     end 
     
